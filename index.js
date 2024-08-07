@@ -73,10 +73,10 @@ fetchDomainList().then(domainList => {
         var foothtml = '<p>Android建議使用<a href="https://lemurbrowser.com/new_version_test/app/zh.html">狐猴</a>瀏覽器</p>' +
             '<p>Iphone建議使用內置<a>Safari</a>瀏覽器</p>' +
             '<p>大陸地區請馬上離開，不要瀏覽/轉發</p>' +
-            '<p>520xav是一個非盈利性的聚合站點</p>' +
+            '<p>5vbn是一個非盈利性的聚合站點</p>' +
             '<p>我們的宗旨是為所有愛好者提供完全免費多樣的影片</p>' +
             '<p>請看管好您的設備，不要使未成年人接觸到我們</p>' +
-            '<p>聯絡電郵：520xav@outlook.com</p>';
+            '<p>聯絡電郵：5vbn@outlook.com</p>';
 
         if (microwap) {
             main.innerHTML = '';
@@ -117,15 +117,15 @@ fetchDomainList().then(domainList => {
                 foot.innerHTML = '';
                 showlink.innerHTML = '';
                 main.insertAdjacentHTML('afterBegin',
-                    '<p>发布页地址1：<a href="https://520xav.com"><span class="host">520xav.com</span></a></p> ' +
-                    '<p>发布页地址2：<a href="https://520xav.github.io/url1/"><span class="host">https://520xav.github.io/url1/</span></a></p>' +
+                    '<p>发布页地址1：<a href="https://5vbn.com"><span class="host">5vbn.com</span></a></p> ' +
+                    '<p>发布页地址2：<a href="https://5vbn.github.io/url1/"><span class="host">https://5vbn.github.io/url1/</span></a></p>' +
                     '<p>防止走丢，请保存上面的发布页到书签。</p>' +
                     '<p style="color:red">可通過本頁面或下面方式取得新地址</p>');
                 showlink.insertAdjacentHTML('afterBegin', '<p>新的地址</p><SPAN class="link" id="use"></SPAN>' +
                     '<p>如果上面地址打不开，请点击下面的地址</p><a href="https://ppyyzy.com"><span class="btn ping">Ping...</span><span class="host">ppyyzy.com</span></a><br>'+
                     '<br>再次提醒<SPAN style="color:red;">请保存此页面为书签</SPAN><br>' +
-                    '<br>请牢记发布页<SPAN style="color:red;">520xav.github.io和520xav.com</SPAN><br>' +
-                    '<a class="btn" href="https://www.ebay.com/usr/520xav">ebay</a>或聯絡郵箱<SPAN style="color:red;">520xav@outlook.com</SPAN>取得新地址' +
+                    '<br>请牢记发布页<SPAN style="color:red;">5vbn.github.io和5vbn.com</SPAN><br>' +
+                    '<a class="btn" href="https://www.ebay.com/usr/5vbn">ebay</a>或聯絡郵箱<SPAN style="color:red;">5vbn@outlook.com</SPAN>取得新地址' +
                     '<br><div class="ps">若出現網址打不開，或出現<SPAN class="ssl">https</SPAN>（<SPAN style="color:red">證書不一致</SPAN>）時' +
                     '<br>已確定是您當地的DNS伺服器被入侵劫持。<br>您可以將DNS伺服器更換為<br><SPAN style="color:gold">Google DNS（慣用：8.8.8.8）（備用：8.8.4.4）</SPAN>' +
                     '<br>或其它安全的DNS（可使用搜尋引擎查詢DNS設定方法）<br>行動設備可直接使用數據網路流量避免此問題。</div>');
@@ -153,8 +153,8 @@ fetchDomainList().then(domainList => {
             addlink('use', uselink);
         };
         const gonggaoContent = document.getElementById('ggao');  
-const gonggaoHtml = `<H1>520xav-最新地址</H1>
-                <P>最新網路上有很多冒牌的520xav網站， 一旦點擊進去就會發現不是我們，而且會跳轉到收費，或者不能正常使用的站點。 520xav是完全免費的並且不需要登入會員也不會讓您試看然後沒有後續的網站。正確的地址有520xav.com這個地址,后续会增加更多备用地址。除此之外全部都是冒牌的惡意網站，請您詳細辨認。</P>`;  
+const gonggaoHtml = `<H1>5vbn-最新地址</H1>
+                <P>最新網路上有很多冒牌的5vbn網站， 一旦點擊進去就會發現不是我們，而且會跳轉到收費，或者不能正常使用的站點。 5vbn是完全免費的並且不需要登入會員也不會讓您試看然後沒有後續的網站。正確的地址有5vbn.com這個地址,后续会增加更多备用地址。除此之外全部都是冒牌的惡意網站，請您詳細辨認。</P>`;  
     gonggaoContent.innerHTML = gonggaoHtml;  
     
 
